@@ -14,5 +14,14 @@
   },
   "devDependencies": {
     "sass": "^1.54.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leosonjoy/E-Commerce-Site.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/leosonjoy/E-Commerce-Site/issues"
+  },
+  "homepage": "https://github.com/leosonjoy/E-Commerce-Site#readme"
 }
