@@ -17,22 +17,9 @@ body {
 @import "./nav/nav.scss";
 @import "./carousel/carousel.scss";
 @import "./feature/feature.scss";
-.tab-name {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-
-  .hr-rule {
-    background-color: #000;
-    height: 2px;
-    width: 6rem;
-    padding: 0;
-  }
-}
+@import "./tab/tab.scss";
 
 // Daily Deals Tab Content
-
 .product-wrap {
   position: relative;
   margin-bottom: 25px;
