@@ -18,65 +18,10 @@ body {
 @import "./carousel/carousel.scss";
 @import "./feature/feature.scss";
 @import "./tab/tab.scss";
-
-// Daily Deals Tab Content
-
 @import "./support/support.scss";
-
-// Subscriber Wrapper
-.subscriber-wrapper {
-  h1 {
-    font-size: 48px;
-    line-height: 1;
-    font-weight: 400;
-    color: #000;
-    margin: 0.5rem 0;
-  }
-  p {
-    font-size: 16px;
-    // line-height: 2;
-    padding: 1rem;
-    color: #6a6a6a;
-    margin-bottom: 1rem;
-  }
-
-  .newsletter-form {
-    position: relative;
-    width: 100%;
-    margin-top: 2rem;
-
-    .email {
-      width: 100%;
-      height: 30px;
-      border: none;
-      border-bottom: 2px solid #c7c4c4;
-      outline: none;
-      background-color: inherit;
-      padding: 1.5rem 0;
-    }
-
-    .button {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      width: 40px;
-      height: calc(30px + 1rem);
-      padding: 0;
-      border: none;
-      background: inherit;
-      text-align: center;
-      font-size: 2rem;
-      color: #c7c4c4;
-
-      &:hover {
-        color: #000;
-      }
-    }
-  }
-}
+@import "./newsletter/newsletter.scss";
 
 // Footer
-
 footer {
   color: #494949;
   background-color: #f1f1f1;
